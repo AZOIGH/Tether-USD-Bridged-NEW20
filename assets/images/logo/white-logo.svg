@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="48" viewBox="0 0 360 48" role="img" aria-labelledby="title desc">
-  <title id="title">Tether USD Bridged NEW20 – Logo (Light)</title>
+  <title id="title">TEHTER USDT.w – Logo (Light)</title>
   <desc id="desc">White logotype with blue accent, designed for dark backgrounds.</desc>
   <defs>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -16,7 +16,7 @@
   </g>
   <!-- Wordmark -->
   <g transform="translate(58,14)" fill="#ffffff">
-    <text x="0" y="12" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="0.2">Tether USD</text>
+    <text x="0" y="12" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="0.2">TEHTER USDT.w</text>
   </g>
   <g transform="translate(58,14)">
     <text x="0" y="28" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="13.5" font-weight="600" fill="url(#accentGrad)">Bridged #NEW20</text>
