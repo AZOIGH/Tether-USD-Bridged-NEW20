@@ -1,5 +1,5 @@
 /*
-Template Name: Tether USD Bridged NEW20 – Landing Page
+Template Name: TEHTER USDT.w – Landing Page
 Author: GrayGrids
 */
 
