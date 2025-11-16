@@ -2686,6 +2686,225 @@ ol {
 }
 
 /*======================================
+  Contact (Pro) CSS
+========================================*/
+.contact {
+  background-color: #0E2A22; /* USDT dark green background */
+}
+
+.contact .contact-info-card {
+  background: #ffffff;
+  border: 1px solid #e5f2ec;
+  border-radius: 16px;
+  padding: 32px;
+  -webkit-box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+          box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .contact-info-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.contact .contact-info-card p {
+  color: #334155;
+  margin-bottom: 14px;
+}
+
+.contact .support-email {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: #fff;
+  background-color: rgba(62, 128, 255, 0.1);
+  border: 1px solid rgba(62, 128, 255, 0.35);
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 6px 0 12px 0;
+  color: #0f172a;
+}
+
+.contact .support-email i {
+  color: #26A17B;
+  font-size: 18px;
+}
+
+.contact .support-email:hover {
+  color: #fff;
+  background-color: rgba(62, 128, 255, 0.18);
+  border-color: rgba(62, 128, 255, 0.5);
+}
+
+.contact .contact-meta {
+  margin-top: 8px;
+}
+
+.contact .contact-meta li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.contact .contact-meta li:first-child {
+  border-top: none;
+}
+
+.contact .contact-meta i {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #111827;
+  color: #26A17B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+.contact .contact-meta span {
+  display: block;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.contact .contact-meta strong {
+  display: block;
+  color: #0f172a;
+  font-weight: 600;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.contact .assurance {
+  margin-top: auto;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(2, 6, 23, 0.08);
+  background: rgba(2, 6, 23, 0.04);
+  color: #64748b;
+  font-size: 13px;
+}
+
+.contact .assurance i {
+  color: #26A17B;
+  font-size: 16px;
+}
+
+.contact .contact-form-card {
+  background: #ffffff;
+  border: 1px solid #e5f2ec;
+  border-radius: 16px;
+  padding: 28px;
+  -webkit-box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+          box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+  height: 100%;
+}
+
+.contact .contact-form-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #0f172a;
+}
+
+.contact .contact-form .form-group {
+  margin-bottom: 16px;
+}
+
+.contact .contact-form .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.contact .contact-form .form-control {
+  background: #ffffff;
+  border: 1px solid #d1e7df;
+  color: #0f172a;
+  border-radius: 10px;
+  min-height: 48px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact .contact-form .form-control::-webkit-input-placeholder {
+  color: #94a3b8;
+}
+
+.contact .contact-form .form-control::-moz-placeholder {
+  color: #94a3b8;
+}
+
+.contact .contact-form .form-control:-ms-input-placeholder {
+  color: #94a3b8;
+}
+
+.contact .contact-form .form-control::-ms-input-placeholder {
+  color: #94a3b8;
+}
+
+.contact .contact-form .form-control::placeholder {
+  color: #94a3b8;
+}
+
+.contact .contact-form textarea.form-control {
+  min-height: 140px;
+}
+
+.contact .contact-form .form-control:focus {
+  border-color: #3E80FF;
+  background: #ffffff;
+  color: #0f172a;
+  -webkit-box-shadow: 0 0 0 3px rgba(62, 128, 255, 0.2);
+          box-shadow: 0 0 0 3px rgba(62, 128, 255, 0.2);
+}
+
+/* Contact section title on dark background */
+.contact .section-title h2 {
+  color: #ffffff;
+}
+.contact .section-title p {
+  color: #cbd5e1;
+}
+
+/*======================================
 	Footer CSS
 ========================================*/
 .footer {
@@ -2945,4 +3164,158 @@ ol {
 
 .footer .copyright-area p a:hover {
   color: #3E80FF;
+}
+
+/*======================================
+  USDT Theme Overrides (Green)
+  Primary: #26A17B
+========================================*/
+html,
+body {
+  background-color: #0D1F16;
+}
+
+.hero-area {
+  background-color: #0E2A22;
+}
+
+.call-action {
+  background-color: #0f221b;
+}
+
+.footer {
+  background-color: #0E2A22;
+}
+
+.section-title h3 {
+  color: #26A17B;
+}
+
+.section-title.align-right h2:after {
+  background: #26A17B;
+}
+
+.scroll-top {
+  background: #26A17B;
+}
+
+.scroll-top:hover {
+  background-color: #26A17B;
+}
+
+.form-check-input:checked {
+  background-color: #26A17B;
+  border-color: #26A17B;
+}
+
+.button .btn {
+  background-color: #26A17B;
+  color: #fff;
+}
+
+.button .btn:hover {
+  background-color: #1F8E6C;
+}
+
+.button .btn-alt:hover {
+  background-color: #26A17B !important;
+}
+
+.navbar-nav .nav-item:hover a,
+.header .navbar .navbar-nav .nav-item a:hover,
+.sticky .navbar .navbar-nav .nav-item a.active,
+.navbar-nav .nav-item .sub-menu .nav-item a:hover,
+.navbar-nav .nav-item .sub-menu > li.active > a {
+  color: #26A17B !important;
+}
+
+.sticky,
+.navbar-area.sticky {
+  background-color: #0D1F16;
+}
+
+.feature .feature-box:hover {
+  border-top-color: #26A17B;
+  border-bottom-color: #26A17B;
+}
+
+.footer .single-footer.f-link li a:hover {
+  color: #26A17B;
+}
+
+.footer .newsletter-form .button .sub-btn:hover {
+  background-color: #26A17B;
+}
+
+.footer .newsletter-form input:hover,
+.footer .newsletter-form input:focus {
+  border-color: #26A17B;
+}
+
+/* Contact refinements in green */
+.contact .support-email {
+  background-color: rgba(38, 161, 123, 0.12);
+  border-color: rgba(38, 161, 123, 0.45);
+}
+.contact .support-email:hover {
+  background-color: rgba(38, 161, 123, 0.18);
+  border-color: rgba(38, 161, 123, 0.6);
+}
+.contact .contact-meta i {
+  color: #26A17B;
+}
+.contact .contact-form .form-control:focus {
+  border-color: #26A17B;
+  -webkit-box-shadow: 0 0 0 3px rgba(38, 161, 123, 0.25);
+          box-shadow: 0 0 0 3px rgba(38, 161, 123, 0.25);
+}
+.call-action .text h2 span {
+  color: #26A17B;
+}
+
+/* Navbar brand with text and compact logo */
+.header .navbar .navbar-brand.brand-with-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+}
+.header .navbar .navbar-brand.brand-with-text .brand-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header .navbar .navbar-brand.brand-with-text .brand-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1.05;
+}
+.header .navbar .navbar-brand.brand-with-text .brand-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.header .navbar .navbar-brand.brand-with-text .brand-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #26A17B;
+}
+@media (max-width: 767px) {
+  .header .navbar .navbar-brand.brand-with-text .brand-title {
+    font-size: 14px;
+  }
+  .header .navbar .navbar-brand.brand-with-text .brand-subtitle {
+    display: none;
+  }
 }
