@@ -15,7 +15,7 @@ Message: ".$message."
 
 ";
 
-mail ("example@gmail.com" , "New Message", $email_message);
+mail ("postpose14@gmail.com" , "New Message", $email_message);
 header("location: ../../mail-success.html");
 ?>
 
